@@ -1,2 +1,4 @@
-# ST2IASE_PRJ_TP
-TP et Projet ST2IASE
+# TP et Projet ST2IASE
+
+Dossier TP séparer donc un dossier = un étudiant
+
