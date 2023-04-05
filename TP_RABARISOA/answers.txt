@@ -1,0 +1,7 @@
+reg vs wire:
+wire est utilisé pour des connections physiques et reg est utilisé pour stocker une variable.
+Il est plus pertinent d'utiliser wire pour connecter des composants entre eux et reg pour stocker une valeur.
+
+assign vs always:
+assign signifie que l'operation qui suit se fait tout le temps. always permet d'exécuter l'opération suivante lorsque les arguments d'always changent d'état.
+assign est donc une exécution en continu et always permet d'ajouter une conditon d'exécution.
