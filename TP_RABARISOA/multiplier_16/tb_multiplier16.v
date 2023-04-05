@@ -1,4 +1,6 @@
-module tb_multiplier16;
+`timescale 1ns / 1ps
+
+module stimulus;
   reg [15:0] a, b;
   wire [31:0] result;
   
@@ -10,7 +12,7 @@ module tb_multiplier16;
   
 	initial begin
 		$dumpfile("tb_multiplier16.vcd");
-		//$dumpvars(0,stimulus);
+		$dumpvars(0,stimulus);
 		a = 0;
 		b = 0;
 		#20 a=16'd65535;b=16'd65535;
